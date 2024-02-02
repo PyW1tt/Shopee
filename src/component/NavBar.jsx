@@ -107,7 +107,7 @@ function NavBar() {
                 <img src="../../icon/navIcon/search.svg" alt="" />
               </button>
             </div>
-            <div className="md:hidden px-3">
+            <div className="md:hidden px-2">
               <img
                 src="../../icon/navIcon/shopping-cart.svg"
                 alt=""
@@ -125,8 +125,13 @@ function NavBar() {
               <p>Lorem, </p>
             </div>
           </div>
-          <div className="flex justify-center mx-10 max-md:hidden">
-            <img src="../../icon/navIcon/shopping-cart.svg" alt="" />
+          <div className="flex justify-center mr-5 max-md:hidden hover:cursor-pointer">
+            <img
+              src="../../icon/navIcon/shopping-cart.svg"
+              alt=""
+              width={35}
+              height={35}
+            />
           </div>
         </div>
       </div>

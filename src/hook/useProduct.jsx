@@ -11,7 +11,7 @@ function useProduct() {
     try {
       setloading(true);
       const result = await axios.get(
-        `https://dummyjson.com/products/search?q=${searchProducts}&limit=${limit}`
+        `/products/search?q=${searchProducts}&limit=${limit}`
       );
       setPorduct(result.data.products);
       setloading(false);
@@ -25,7 +25,7 @@ function useProduct() {
   async function getProductById(param) {
     try {
       setloading(true);
-      const result = await axios.get(`https://dummyjson.com/products/${param}`);
+      const result = await axios.get(`/products/${param}`);
       setPorductById(result.data);
       setloading(false);
     } catch (error) {
@@ -38,9 +38,7 @@ function useProduct() {
   async function getCategory(param) {
     try {
       setloading(true);
-      const result = await axios.get(
-        `https://dummyjson.com/products/category/${param}?limit=0`
-      );
+      const result = await axios.get(`/products/category/${param}?limit=0`);
       setPorduct(result.data.products);
       // console.log(result.data.products);
       setloading(false);

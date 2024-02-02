@@ -3,6 +3,9 @@ import HomePage from "./pages/HomePage";
 import ProductId from "./pages/ProductId";
 import Search from "./pages/Search";
 import Category from "./pages/Category";
+import axios from "axios";
+
+axios.defaults.baseURL = "https://dummyjson.com";
 
 function App() {
   return (
