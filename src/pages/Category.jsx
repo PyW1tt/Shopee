@@ -51,7 +51,7 @@ function Category() {
                               ฿{item.price}
                             </span>
                             <span className=" text-sm text-slate-500">
-                              ขายแล้ว NaN ชิ้น
+                              ขายแล้ว 0 ชิ้น
                             </span>
                           </span>
                         </div>

@@ -97,10 +97,10 @@ function ProductId() {
                   &nbsp;
                   <span className="flex ">{renderRating()}</span>
                   <span className="mx-5">|</span>
-                  <span className="underline">NaN</span> &nbsp;
+                  <span className="underline">0</span> &nbsp;
                   <span className="text-slate-500">Ratings</span>
                   <span className="mx-5">|</span>
-                  <span className="text-slate-500">NaN Sell</span>
+                  <span className="text-slate-500">0 Sell</span>
                 </div>
                 <div className="flex items-center bg-slate-100 w-full p-3 my-3">
                   <span className="line-through text-slate-500">
@@ -117,11 +117,11 @@ function ProductId() {
                 </div>
                 <div className="text-sm my-10">
                   <span>โค้ดส่วนลดจากร้านค้า</span>&nbsp;&nbsp;
-                  <span className="ml-5">NaN</span>
+                  <span className="ml-5">0</span>
                 </div>
                 <div className="text-slate-500 my-10">
                   <span>ตัวเลือก</span>&nbsp;&nbsp;
-                  <span className="p-1 border-2 ml-20">NaN</span>
+                  <span className="p-1 border-2 ml-20">0</span>
                 </div>
                 <div className="text-slate-500 my-10 flex items-center ">
                   <span className=" mr-24">จำนวน</span>
